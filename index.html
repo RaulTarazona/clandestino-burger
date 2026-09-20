@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Clandestino Burger · Carta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;800;900&family=Special+Elite&family=Barlow+Semi+Condensed:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+  <!-- Libro para PANTALLAS GRANDES (PC) -->
+  <main class="stage">
+    <div class="book-frame desk">
+      <div class="book" id="book" aria-label="Carta de Clandestino Burger">
+        <div class="slab"><div class="page center"><div class="grain"></div></div></div>
+        <div id="leaves"></div>
+        <div class="spine"></div>
+        <button class="tapzone prev" id="tapPrev" aria-label="Página anterior"></button>
+        <button class="tapzone next" id="tapNext" aria-label="Página siguiente"></button>
+      </div>
+    </div>
+
+    <!-- Carrusel para CELULAR -->
+    <div class="reel mob" id="reel" tabindex="0" aria-label="Carta de Clandestino Burger"></div>
+  </main>
+
+  <!-- Barra de navegación -->
+  <div class="bar">
+    <nav class="nav" aria-label="Navegación de la carta">
+      <button id="prev">Anterior</button>
+      <span class="counter" id="counter">Folio 1</span>
+      <button id="next">Siguiente</button>
+    </nav>
+  </div>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
