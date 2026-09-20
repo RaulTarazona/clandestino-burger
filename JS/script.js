@@ -4,11 +4,11 @@
    (mismo nombre = se actualiza solo, sin tocar el resto del código)
    ========================================================= */
 const IMG = {
-  logo:  "../IMG/logo.jpg",
-  sello: "../IMG/sello.jpg",
-  b1:    "../IMG/b1.jpg",
-  b2:    "../IMG/b2.jpg",
-  b3:    "../IMG/b3.jpg"
+  logo:  "IMG/logo.jpg",
+  sello: "IMG/sello.jpg",
+  b1:    "IMG/b1.jpg",
+  b2:    "IMG/b2.jpg",
+  b3:    "IMG/b3.jpg"
 };
 
 /* =========================================================
